@@ -35,7 +35,7 @@ body {
 body {
 /*     background: #FC354C;  fallback for old browsers */
     align-items: center;
-    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C,#00e5b7, #00ee8a, #03f548);  /* Chrome 10-25, Safari 5.1-6 */
     background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
