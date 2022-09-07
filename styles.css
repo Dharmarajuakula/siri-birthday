@@ -33,8 +33,12 @@ body {
 }
 
 body {
-    align-items: center;
-    background-image: linear-gradient(to right top, #1bc9d9, #00d8d2, #00e5b7, #00ee8a, #03f548);
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*     align-items: center; */
+/*     background-image: linear-gradient(to right top, #1bc9d9, #00d8d2, #00e5b7, #00ee8a, #03f548); */
 
     /* display: flex; */
     font-family: -apple-system,
