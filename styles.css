@@ -57,7 +57,7 @@ body {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: .125rem;
     text-transform: uppercase;
 }
@@ -99,7 +99,18 @@ li span {
     }
 }
 
-
+#days{
+  color:#0E2431;
+}
+#hours{
+  color:#0E2431;
+}
+#minutes{
+  color: #0E2431;
+}
+#seconds{
+  color: #0E2431;
+}
 
 
 /* html, body {
