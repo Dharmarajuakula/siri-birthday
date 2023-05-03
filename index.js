@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("July 25, 2022 24:00:00").getTime();
+var countDownDate = new Date("July 26, 2023 24:00:00").getTime();
 document.getElementById("card").style.visibility = 'hidden';
 // Update the count down every 1 second
 var x = setInterval(function() {
